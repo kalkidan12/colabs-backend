@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "no-console": {
+      "severity": "warning"
+    },
+    "no-unused-expression": {
+      "severity": "warning"
+    },
+    "ban-types": {
+      "severity": "warning"
+    },
+    "no-shadowed-variable": {
+      "severity": "warning"
+    }
+  }
+}
